@@ -35,7 +35,7 @@ extension ViewController: UITextViewDelegate {
   public func textViewDidBeginEditing(_ textView: UITextView)
   {
     if textView.text == "Hello World!" {//Remove the placeholder text on begin
-//      textView.text = "" //Crash!
+      textView.text = "" //Crash!
     }
   }
 }
